@@ -1,7 +1,7 @@
-# frozen_string_literal: true
+source 'https://rubygems.org'
 
-source "https://rubygems.org"
+ruby '3.1.1'   # Change this line if you're using a different Ruby version.
 
-git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
-
-# gem "rails"
+gem 'sinatra', '2.2.0'
+gem 'puma',    '5.6.4'
+gem 'rerun',   '0.13.1'
